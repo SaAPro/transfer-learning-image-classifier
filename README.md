@@ -1,4 +1,4 @@
-# transfer-learning-image-classifier
+# Transfer learning image classifier
 Transfer learning is used to make highly accurate model with minimal training data. We are using MobileNet, a pre-trained model for image classification. This code uses TensorFlow.js
 
 ## Getting started
