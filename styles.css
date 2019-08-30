@@ -51,6 +51,7 @@
 	background-color: #303030;
 	display: flex;
 	justify-content: center;
+	align-content: center;
 }
 
 .console-container {
