@@ -1,0 +1,39 @@
+<html>
+  <head>
+		<meta charset='UTF-8'/>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Image classifier with tensorflow.js</title>
+    <link rel='stylesheet' href='styles.css'/>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet@2.0.2"></script>
+		<script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+  </head>
+  <body>
+		<div class='header-container'>
+      <div class='header'>
+        <div class='title'>Image classifier with tensorflow.js</div>
+      </div>
+    </div>
+
+		<div class="content-container">
+			<div class="content-wrapper">
+				<div class="video">
+					<video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+				</div>
+				<div class="button-wrapper">
+					<button id="class-a" class="button button-a">Add A</button>
+					<button id="class-b" class="button button-b">Add B</button>
+					<button id="class-c" class="button button-c">Add C</button>
+				</div>
+			</div>
+			</div>
+
+		<div class="console-container">
+			<div id="console" class="console-display"></div>
+		</div>
+
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+  </body>
+</html>
